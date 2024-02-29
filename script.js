@@ -189,6 +189,14 @@
 // }
 // console.log(productOfArray([1, 2, 3, 4]));
 
+// 編碼練習 13： recursiveRange
+// Write a function called recursiveRange which accepts a number and adds up all the numbers from 0 to the number passed to the function
+// function recursiveRange(num) {
+//   if (num === 1) return 1;
+//   return num + recursiveRange(num - 1);
+// }
+// console.log(recursiveRange(100));
+
 // 編碼練習 24： Linear Search Exercise
 // Write a function called linearSearch which accepts an array and a value, and returns the index at which the value exists. If the value does not exist in the array, return -1. Don't use indexOf to implement this function!
 // function linearSearch(arr, t) {
