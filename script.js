@@ -181,6 +181,14 @@
 // }
 // console.log(factorial(7));
 
+// 編碼練習 12： productOfArray
+// Write a function called productOfArray which takes in an array of numbers and returns the product of them all.
+// function productOfArray(arr) {
+//   if (arr.length === 0) return 1;
+//   return arr[0] * productOfArray(arr.slice(1));
+// }
+// console.log(productOfArray([1, 2, 3, 4]));
+
 // 編碼練習 24： Linear Search Exercise
 // Write a function called linearSearch which accepts an array and a value, and returns the index at which the value exists. If the value does not exist in the array, return -1. Don't use indexOf to implement this function!
 // function linearSearch(arr, t) {
